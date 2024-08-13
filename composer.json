@@ -1,0 +1,14 @@
+{
+    "name": "adeyinkaoresanya/error-monitoring-app",
+    "description": "A simple error monitoring app",
+    "type": "project",
+    "authors": [
+        {
+            "name": "adeyinkaoresanya",
+            "email": "adeyinkaoresanya@gmail.com"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "^8.2"
+    }
+}
