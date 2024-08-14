@@ -55,5 +55,4 @@ jobs:
           fi
 
       - name: Send Twilio Voice Alert on Errors
-        if: steps.check_flag.outputs.has_errors == 'true'
         run: php send_twilio_alert.php
